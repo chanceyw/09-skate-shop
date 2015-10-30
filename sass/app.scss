@@ -4,11 +4,140 @@
 @import "normalize";
 $fa-font-path: "//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts";
 @import "font-awesome";
-
+html {
+  background-image: url("http://cdn0.nflximg.net/webp/7892/4177892.webp");
+}
 .container {
-  max-width: 1024px;
+  max-width: 1000px;
+  background-color: yellow;
+  margin: auto;
+}
+.top-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.top-nav-icons .fa {
+  font-size: 40px;
+  margin: 0.3rem;
+}
+.top-nav .drop-down {
+  padding-right: 6rem;
+  line-height: 3.0rem;
+}
+.top-nav .drop-down i {
+  font-size: 10px;
+  padding-left: 1rem;
+  line-height: inherit;
+}
+.red-button {
+  max-width: 1040px;
+  position: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-top: 0.5rem;
+}
+.red-button button {
+  flex: 1 0 calc(25% - 10px);
+  text-align: center;
+  margin: 0.2rem;
+  width: 23%;
+}
+section .header-pic {
+  max-width: 1040px;
+  position: relative;
+}
+.top-img {
+  width: 100%;
+  border: solid white 10px;
+  height: 500px;
+  align-items: center;
+  margin-top: 0.6rem;
+}
+.top-img-logo {
+  position: absolute;
+  top: 15rem;
+  left: 9rem;
+}
+.icon-selector {
+  text-align: center;
+}
+.icon-selector i {
+  padding: 0.2rem;
+  background: white;
+}
+.arti {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  padding-top: 0.5rem;
+  max-width: 1000px;
+}
+.content {
+  flex: 1 0 calc(33.3333% - 50px);
+  text-align: left;
+  margin: 4px;
+  border: solid black 1px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+.content p {
+  flex: 1;
+}
+.content a {
+  display: block;
+  text-align: center;
+  flex-direction: column;
+
+}
+.the-arrow {
+position: absolute;
+left: -5px;
+top: 1000px;
+}
+.the-arrow span {
+  font-size: 9px;
+}
+.img-grid h2 {
+position: absolute;
 }
 
-html{
+
+.img-grid {
+  overflow: auto;
+  background: white;
+}
+
+.img-grid__sec{
+  margin: 4px;
+  border: rgb(240, 240, 240) 5px solid;
+  width: calc(33.33% - 8px);
+  float: left;
+}
+
+.img-grid__sec img {
+  width: 100%;
+}
+
+.img-grid__sec--double {
+  width: calc(66.66% - 8px);
+  float: left;
+  transform: translate(0%, -19.5%)
+
+}
+
+.img-grid__sec--tall{
+  float: right;
+
+}
+.skateboard-container {
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.skateboard {
+  margin: 10px;
+  flex: 1 1 calc(10% - 20px);
 
 }
