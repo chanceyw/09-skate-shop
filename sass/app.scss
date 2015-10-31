@@ -9,7 +9,7 @@ html {
 }
 .container {
   max-width: 1000px;
-  background-color: yellow;
+
   margin: auto;
 }
 .top-nav {
@@ -105,7 +105,7 @@ position: absolute;
 
 .img-grid {
   overflow: auto;
-  background: white;
+
 }
 
 .img-grid__sec{
@@ -134,10 +134,39 @@ position: absolute;
   background: white;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 0;
 
 }
 .skateboard {
   margin: 10px;
   flex: 1 1 calc(10% - 20px);
 
+}
+
+.footer-container {
+  width: 1000px;
+  background-color: yellow;
+  display: flex;
+
+}
+
+.footer-left-column  {
+  width: 50%;
+  background: white;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.footer-left-column i {
+  font-size: 25px;
+}
+
+.footer-right-column {
+  flex-direction: column;
+  flex-flow: column;
+
+  max-width: 30%;
+
+}
+.text {
+  flex-direction: column;
 }
