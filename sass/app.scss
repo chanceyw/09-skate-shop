@@ -17,6 +17,9 @@ html {
   display: flex;
   justify-content: flex-end;
 }
+.top-nav a{
+  color: #A4A09D;
+}
 .top-nav-icons .fa {
   font-size: 40px;
   margin: 0.3rem;
@@ -24,6 +27,10 @@ html {
 .top-nav .drop-down {
   padding-right: 6rem;
   line-height: 3.0rem;
+  color: rgba(156, 162, 160, 0.63);
+}
+.fa-ellipsis-v{
+  color: #C4C4C4;
 }
 .top-nav .drop-down i {
   font-size: 10px;
@@ -89,10 +96,11 @@ section .header-pic {
 }
 .icon-selector {
   text-align: center;
+  color: white;
 }
 .icon-selector i {
   padding: 0.2rem;
-  background: white;
+  color: white;
 }
 .arti {
   display: flex;
@@ -209,7 +217,7 @@ left: 70%;
   background: white;
   display: flex;
   flex-wrap: wrap;
-  margin: 0;
+  margin-top: 0;
   border-radius: 3px;
 
 }
@@ -220,34 +228,57 @@ left: 70%;
 
 .footer-container {
   width: 1000px;
-  background-color: yellow;
-  height: 250px;
+  background-color: #FCFCFC;
+  height: 300px;
+  position: relative;
+  margin-top: 30px;
 
 
 }
 
 .footer-left-column  {
   width: 50%;
-  background: white;
   margin-left: 25px;
-  margin-top: 0px;
+  margin-top: 10px;
+  padding-top: 30px;
+  color: #686965;
 }
 .footer-left-column i {
   font-size: 25px;
 }
 
 .footer-right-column {
-  width: 390px;
-  position: relative;
-  right: 200px;
-  top: 0px;
-  display: flex;
-  flex-direction: column;
-
-
+ position: absolute;
+  right: 37px;
+  top: 50px;
+  width: 35%;
+  text-align: right;
 
 }
-.text {
-width: 40%;
-margin: 20px;
+.footer-right-column__name {
+  width: 100%;
+  margin-bottom: 16px;
+  color: #C9C9C9;
+  border: solid #AEAEAE 3px;
+}
+.footer-right-column__email {
+  width: 100%;
+  margin-bottom: 16px;
+  color: #C9C9C9;
+  border: solid #AEAEAE 3px;
+}
+
+.footer-right-column__comment {
+  width: 100%;
+  color: #C9C9C9;
+  padding-bottom: 60px;
+  margin-bottom: 25px;
+  border: solid #AEAEAE 3px;
+}
+.footer-button {
+  width: 55%;
+  background-color: #B4292E;
+  border: solid #B4292E 1px;
+  color: #E1B1B3;
+  padding-top: 4px;
 }
