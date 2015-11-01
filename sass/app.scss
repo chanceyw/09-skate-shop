@@ -146,13 +146,26 @@ margin-right: 10px;
 
 }
 .the-arrow {
-position: absolute;
-left: -5px;
-top: 1000px;
+position: relative;
+left: -100px;
+top: 0px;
+width: 150px;
+background: red;
+border: solid red 1px;
 }
+
 .the-arrow span {
-  font-size: 9px;
+  font-size: 12px;
 }
+.fa-caret-right{
+  position: absolute;
+  right: -17px;
+  bottom: -10px;
+  color: red;
+  font-size: 44px;
+
+}
+
 
 .img-grid {
   overflow: auto;
