@@ -5,7 +5,8 @@
 $fa-font-path: "//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts";
 @import "font-awesome";
 html {
-  background-image: url("http://cdn0.nflximg.net/webp/7892/4177892.webp");
+  box-sizing: border-box;
+  background: url(img/bg.jpg);
 }
 .container {
   max-width: 1000px;
@@ -42,6 +43,34 @@ html {
   margin: 0.2rem;
   width: 23%;
 }
+.fa-facebook-official {
+  color: #445897;
+}
+
+.fa-rss-square {
+  color: #CB8E31;
+}
+
+.fa-twitter-square{
+  color: #698DC6;
+}
+
+.fa-youtube-square {
+color: #B1372C;
+}
+
+.red-button {
+  color: #DCA7AA;
+
+
+}
+.red-button button {
+  background-color: #B4292E;
+  border: solid #B4292E;
+
+}
+
+
 section .header-pic {
   max-width: 1040px;
   position: relative;
@@ -71,6 +100,9 @@ section .header-pic {
   text-align: left;
   padding-top: 0.5rem;
   max-width: 1000px;
+  padding: 10px;
+
+
 }
 .content {
   flex: 1 0 calc(33.3333% - 50px);
@@ -80,6 +112,9 @@ section .header-pic {
   background: white;
   display: flex;
   flex-direction: column;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-style: none;
 }
 .content p {
   flex: 1;
@@ -98,18 +133,59 @@ top: 1000px;
 .the-arrow span {
   font-size: 9px;
 }
-.img-grid h2 {
-position: absolute;
-}
-
 
 .img-grid {
   overflow: auto;
-
+  position: relative;
+  margin-top: 20px;
+}
+.img-grid h2 {
+position: absolute;
+color: white;
 }
 
+.steve{
+  font-size: 40px;
+  position: absolute;
+  left: 20%;
+  width: 400px;
+  top: 30%
+}
+
+.tommy {
+font-size: 40px;
+width: 250px;
+
+text-align: center;
+position: absolute;
+top: 25%;
+left: 70%;
+}
+
+.lance {
+  font-size: 40px;
+  width: 250px;
+  text-align: center;
+  position: absolute;
+  top: 7%;
+  left: 3%;
+}
+
+.rodney {
+  font-size: 40px;
+  width: 250px;
+  text-align: center;
+  position: absolute;
+  top: 7%;
+  left: 37%;
+}
+
+
+
+
+
 .img-grid__sec{
-  margin: 4px;
+  margin: 3px;
   border: rgb(240, 240, 240) 5px solid;
   width: calc(33.33% - 8px);
   float: left;
@@ -123,50 +199,55 @@ position: absolute;
   width: calc(66.66% - 8px);
   float: left;
   transform: translate(0%, -19.5%)
-
 }
 
 .img-grid__sec--tall{
   float: right;
-
 }
+
 .skateboard-container {
   background: white;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 0;
+  margin: 0;
+  border-radius: 3px;
 
 }
 .skateboard {
-  margin: 10px;
-  flex: 1 1 calc(10% - 20px);
-
+  margin: 20px;
+  flex: 1 1 calc(10% - 40px);
 }
 
 .footer-container {
   width: 1000px;
   background-color: yellow;
-  display: flex;
+  height: 250px;
+
 
 }
 
 .footer-left-column  {
   width: 50%;
   background: white;
-  margin-left: 10px;
-  margin-top: 10px;
+  margin-left: 25px;
+  margin-top: 0px;
 }
 .footer-left-column i {
   font-size: 25px;
 }
 
 .footer-right-column {
+  width: 390px;
+  position: relative;
+  right: 200px;
+  top: 0px;
+  display: flex;
   flex-direction: column;
-  flex-flow: column;
 
-  max-width: 30%;
+
 
 }
 .text {
-  flex-direction: column;
+width: 40%;
+margin: 20px;
 }
